@@ -1002,11 +1002,11 @@ You can add any additional validation to this method. If validation fails, simpl
 
 ##### Arguments
 
-| Argument   | Type                                         | Description                             |
-| ---------- | -------------------------------------------- | --------------------------------------- |
-| jsonSchema | Object                                       | A deep clone of this class's jsonSchema |
-| json       | Object                                       | The JSON object to be validated         |
-| opt        | [ModelOptions](/api/types/type-modeloptions) | Optional options                        |
+| Argument   | Type                                          | Description                             |
+| ---------- | --------------------------------------------- | --------------------------------------- |
+| jsonSchema | Object                                        | A deep clone of this class's jsonSchema |
+| json       | Object                                        | The JSON object to be validated         |
+| opt        | [ModelOptions](/api/types/#type-modeloptions) | Optional options                        |
 
 ##### Return value
 
@@ -1030,10 +1030,10 @@ You can do further validation here and throw an error if something goes wrong.
 
 ##### Arguments
 
-| Argument | Type                                         | Description                     |
-| -------- | -------------------------------------------- | ------------------------------- |
-| json     | Object                                       | The JSON object to be validated |
-| opt      | [ModelOptions](/api/types/type-modeloptions) | Optional options                |
+| Argument | Type                                          | Description                     |
+| -------- | --------------------------------------------- | ------------------------------- |
+| json     | Object                                        | The JSON object to be validated |
+| opt      | [ModelOptions](/api/types/#type-modeloptions) | Optional options                |
 
 ## $validate()
 
